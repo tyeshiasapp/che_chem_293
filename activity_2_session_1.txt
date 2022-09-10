@@ -1,21 +1,18 @@
 What does the model achieve?
-- Derives a linear correlation between Car MPG and Car Wt
+- Derives a linear correlation between Sample Concentration and Response Time.
 How should metrics be interpreted?
-- P-value: 
-- R square: 
-- Slope: relationship between Car MPG and Cat Wt for the model (in addition to )
+- P-value: 0.002856
+- R square: 0.9650
+- Slope: relationship between Sample Concentration and Response Time for the model
 
 What are appropriate use cases?
 - Correlating two variables with the expectation that the relationship is linear.
 How is it implemented? *
 - Minimizing difference between model and actual values from each point
 
-It is okay to recognize limits of your expertise
-
-It is NOT okay to misuse/misinterpret/misreport!
-
 What are caveats/biases/concerns to its usage?
-- Only 3 sample points, may benefit from more data
+- Only 4 sample points, may benefit from more data
 
 How to interpret this specific result and advising action/next steps?
-- Car weight is heavily correlated with MPG, minimizing car weight can improve MPG drastically.
+- Sample Concentration is moderately correlated to Response Time, indicative of R squared value below 0.99. 
+
